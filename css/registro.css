@@ -1,0 +1,163 @@
+@import url(https://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #606060;
+}
+.principal{
+    width: 100%;
+    height: 800px;
+    background-color: #606060;
+    display:grid;
+    grid-template-rows: 12.5% 13% 12.5% 60%;
+    padding: 1%;
+  
+}
+.principal>div{
+    border: solid black;
+    border-radius: 2%;
+    width: 70%;
+    margin-left: 15%;
+ 
+}
+h1{
+    font-size: 200%;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+.opciones>span{
+    margin: 4%;
+}
+span{
+    margin-top: 50%;
+}
+.cuadro{
+    width: 100%;
+    /* max-width: 1476px; */
+}
+.tabla{
+    width: 100%;
+    height: 100%;
+     border-radius: 12%;
+    border-collapse:collapse ;
+    margin: 0;
+    padding: 0;
+    
+}
+.table caption {
+    font-size: 28px;
+}
+tr{
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+}
+th{
+  text-align: center;
+}
+td{
+   text-align: center;
+   padding: 0;
+}
+.table thead, th{
+    background-color: #ddd;
+}
+.table tbody, tr:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.table tbody, td:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.entypo-trash{
+    position: relative; 
+}
+.entypo-docs{
+    position: relative; 
+}
+.entypo-pencil{
+    position: relative; 
+}
+.entypo-trash:hover .ventana {
+    display: inline-block;
+}
+.entypo-docs:hover .ventana {
+    display: inline-block;
+}
+.entypo-pencil:hover .ventana {
+    display: inline-block;
+}
+.ventana{
+    display: none;
+    background-color: black;
+    line-height: 10px;
+    z-index: 500;
+    text-align: center;
+    color: #ffff;
+    font-size: 10px;
+    padding: 2px 3px;
+    border-radius: 2px;
+    position: absolute;
+    left: -7px;
+    bottom: 28px;
+}
+.ventana::after{
+    content: "";
+    display: block;
+    border-top: 7px solid black;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: absolute;
+}
+
+@media screen and (max-width:900px) {
+    h1{
+        font-size: 19px;
+    }
+    .table{
+        border: 0px;
+        
+    }
+    .table caption{
+        font-size: 22px;
+    }
+    thead{
+        display: none;
+    }
+    tr{
+        margin-bottom: 8px;
+        border-bottom: 4px #ddd;
+        display: block;
+    }
+    th{
+      font-size: 12px;
+    }
+    td{
+       font-size: 12px;
+       display: block;
+       border-bottom: 1px solid #ddd;
+       text-align: right;
+
+    }
+    td :last-child{
+      border-bottom: 0px;
+    }
+    td::before{
+        content: attr(data-label);
+        font-weight: bold;
+        float: left;
+    }
+    .principal{
+        height: 1260px;
+        display:grid;
+        grid-template-rows: 5% 5% 5% 75%;
+    }
+    .ventana{   
+        bottom: 17px;
+    }
+}

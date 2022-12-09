@@ -1,0 +1,47 @@
+body{
+    background-color:  #606060;
+}
+.fotos{
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+}
+.cinco{
+text-align: center;
+color: wheat;
+font-size: 20p;
+text-decoration: none;
+}
+.cajas{
+    width: 150px;
+   /*  border: 5px solid black; */
+    margin: 50px;
+    flex: 18%;
+    max-width: 25%;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 20% 20% 20% 20%;
+    background-color: #805af5;
+}
+.cajas2{
+    width: 150px;
+    /*  border: 5px solid black; */
+     margin: 50px;
+     flex: 18%;
+     max-width: 25%;
+     justify-content: center;
+     display: inline-flex;
+     align-items: center;
+     border-radius: 20% 20% 20% 20%;
+     background-color: #805af5;
+}
+.padre{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: 25% 25% 25% 25%; 
+}

@@ -1,0 +1,224 @@
+@import url(https://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  font-size: 800%;
+  margin-left: 28%;
+}
+*{
+    margin:0%;
+    padding:0%;
+}
+body{
+    background-color: #606060;
+}
+div.padre{
+   
+  
+    height:600px;
+   /*  width: 1275px; */  
+}
+.padre>div{
+    margin-top:4%;
+    width: 40%;
+    height: 82%;
+    margin-left: 30%;
+}
+.container{
+/*     border: solid green; */
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+.container>div{
+    border: solid black;
+    border-radius: 2%;
+    background-color: aqua;
+    
+ 
+}
+.titulo{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.titulo>div{
+/*     border: solid pink; */
+    height: 100%;
+
+}
+.informacion{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.informacion>div{
+    border: solid rgba(102, 51, 153, 0.335);
+    height: 100%;
+}
+.unoi{
+    padding-left: 10%;
+}
+.unoi>div{
+   /*  border:  solid blue; */
+    height: 100%;
+    padding-top: 2%;
+}
+.lista{
+    padding-left: 10%;
+    padding-top: 2%;
+}
+.dosi{
+    display: grid;
+    grid-template-rows: 40% 60%;
+   
+}
+
+h1{
+    font-size: 300%;
+    margin-top:5%;
+
+}
+img{
+    height: 90%;
+    width: 90%;
+    margin-left: 5%;
+}
+.boton1{
+    background-color: red;
+    margin-left: 10%;
+}
+.boton2{
+    background-color: green;
+    margin-left: 30%;
+}
+.menu{
+    background-color: rgba(255, 255, 0, 0.753);
+    margin-left: 29%;
+    margin-top: 6%;
+}
+h3{
+    margin-top: 5%;
+}
+input{
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+@media (max-width:1260px){
+    h1{
+        font-size: 190%;
+        margin-top: 6%;
+        margin-left: 2%;
+    }
+    h3{
+        font-size: 15px;
+    }
+    .lista{
+        padding-left: 3%;
+        padding-top: 2%;
+    }
+    img{
+        margin-left: -20px;
+    }
+    .unoi{
+        padding-left: 3%;
+    }
+    
+    .boton3{
+        width: 160px;
+        background-color: rebeccapurple;
+        font-size: 12px;
+    }
+    [class*="entypo-"]:before {
+        font-family: 'entypo', sans-serif;
+        font-size: 700%;
+        margin-left: 28%;
+        margin-top: 2%;
+    }
+
+    .boton2{
+        background-color: green;
+        margin-left: 20%;
+    }
+}
+@media (max-width:900px){
+    div.padre{
+        height: 1000px;
+    }
+    h1{
+        font-size: 150%;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .informacion{
+        display: grid;
+        grid-template-columns: 100%
+    }
+    [class*="entypo-"]:before {
+        font-family: 'entypo', sans-serif;
+        font-size: 600%;
+        margin-left: 28%;
+        margin-right: 24%;
+        margin-top: 100%;
+    }
+    .container{
+      display: grid;
+      grid-template-rows: 12% 88%;
+     }
+     .dosi{
+        display: grid;
+        grid-template-rows: 50% 50%;
+       
+    }
+    img{
+        height: 60%;
+        margin-top: 20%;
+    }
+    
+}
+@media (min-width:1626px) {
+    img{
+       height: 102px;
+       margin-top: 12px;
+       margin-left: 0;
+    }
+/*     .boton2{
+        background-color: rgb(156, 214, 156);
+        margin-left: 20%;
+    }
+ */
+   .boton1{
+      background-color: red;
+      margin-left: 20%;
+    }
+    [class*="entypo-"]:before {
+        font-family: 'entypo', sans-serif;
+        font-size: 1200%;
+        margin-left: 28%;
+        margin-right: 24%;
+        margin-top: 100%;
+    }
+    div.padre{
+        
+        height:900px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    .menu{
+        margin-left: 37%;
+        margin-top: 6%;
+    }
+    .boton3{
+        margin-top: 20px;
+        width: 250px;
+        background-color: rebeccapurple;
+        font-size: 18px;
+    }
+    input{
+        border-radius: 5px 5px 5px 5px;
+        font-size: 22px;
+    
+    }
+  
+}

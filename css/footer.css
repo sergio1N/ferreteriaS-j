@@ -1,0 +1,191 @@
+@import url(https://weloveiconfonts.com/api/?family=fontawesome);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+  font-size: 180%;
+ /*  bottom:-35px; */
+  margin-left: 12%; 
+/*   padding-bottom: 8%; */
+  position: relative;
+  display: block;
+}
+*{
+ margin: 0;
+ padding: 0; 
+    box-sizing: border-box; 
+}
+footer{
+    height: 100%;
+    background-color: aqua;
+}
+.tablap{
+    border: none;
+}
+.pie{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 34% 33% 33%;
+}
+.pie>div{
+    display: block;
+    border: solid rgba(128, 128, 128, 0.116);
+    height: 250px;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    height: 80%;
+    width: 30%;
+    margin-left: 30%;
+    padding: 1%;
+}
+.hola{
+    margin-left: 27%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60%;
+}
+/* img{
+    height: 44%;
+    width: 30%;
+} */
+.face{
+  height: 0%;
+  width: 15%;
+  margin-top: 15%;
+  margin-left: 14%;
+}
+.wasa{
+    height: 0%;
+    width: 17%;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.insta{
+    height: 0%;
+    width: 17%;
+    margin-top:10%;
+    margin-left: 10%;
+}
+.letra{
+  padding-left: 10%;
+  text-decoration: underline 10px  #805af5   ;
+
+}
+/* contenido contacto */
+.tablap{
+    margin-left: 10%;
+    margin-top: 10%;
+    background-color: aqua;
+}
+.p{
+    background-color: aqua;
+}
+
+.a{
+    background-color: aqua
+}
+.altura{
+    height: 40px;
+    background-color: red;
+}
+h4{
+    text-align:start;
+    margin-left: 10%;
+}
+h5{
+    font-size: 20px;
+    margin-left:15% ;
+}
+@media (min-width:1626px) {
+    .tablap{
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+    .face{
+        height: 0%;
+        width: 10%;
+        margin-top: 5%;
+        margin-left: 14%;
+      }
+      .wasa{
+          height: 0%;
+          width: 10%;
+          margin-top: 5%;
+          margin-left: 10%;
+      }
+      .insta{
+          height: 0%;
+          width: 10%;
+          margin-top:5%;
+          margin-left: 10%;
+      }
+}
+@media (max-width:1065px){
+    h4{
+        text-align:start;
+        margin-left: 10%;
+        font-size: 10px;
+    }   
+    .letra{
+        padding-left: 10%;
+        text-decoration: underline 5px  #805af5 ;
+        font-size: 20px;
+
+      }
+      h5{
+        font-size: 10px;
+        margin-left:15% ;
+    }
+}
+@media (max-width:700px){
+    .letra{
+        padding-left: 10%;
+        text-decoration: underline 5px  #805af5 ;
+        font-size: 12px;
+
+      }
+          .face{
+        height: 0%;
+        width: 20%;
+        margin-top: 5%;
+        margin-left: 14%;
+      }
+      .wasa{
+          height: 0%;
+          width: 20%;
+          margin-top: 25%;
+          margin-left: 10%;
+      }
+      .insta{
+          height: 0%;
+          width: 20%;
+          margin-top:25%;
+          margin-left: 5%;
+      }
+/*       .logotipo{
+        display: none;
+    } */
+    .pie{
+        grid-template-columns: 50% 50%;
+    }
+    [class*="fontawesome-"]:before {
+        font-family: 'FontAwesome', sans-serif;
+        font-size: 150%;
+       /*  bottom:-35px; */
+        margin-left: 0%; 
+      /*   padding-bottom: 8%; */
+        position: relative;
+        display: block;
+      }
+          .tablap{
+        margin-left: 2%;
+        margin-top: 3%;
+    }   
+    h4{
+        text-align:start;
+        margin-left: 10%;
+        font-size: 8px;
+    } 
+}
